@@ -27,6 +27,17 @@ class MyPractice extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.indigoAccent.shade100,
+        centerTitle: true,
+        title: const Text(
+          "Alert Dialog",
+          style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2),
+        ),
+      ),
       body: Center(
         /// Adding an Elevated Button
         child: ElevatedButton(
